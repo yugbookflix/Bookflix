@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bookflix</h1>
+    </header>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gradient Background</title>
+        <style>
+            body {
+                
+                background: linear-gradient(to right, #90EE90,#FF6961);
+                height: 100vh; 
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+    </body>
+    </html>
+
+
+    
+    <main>
+        <section>
+            <p>Welcome to Bookflix, your go-to destination for discovering more than 200 books of different geners.Rent books for a week and even get them at your doorstep!</p>
+            
+        
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookflix - Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bookflix Categories</h1>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Search Bar Example</title>
+            <style>
+                .search-container {
+                    margin: 20px;
+                    text-align: center;
+                }
+                input[type="search"] {
+                    padding: 10px;
+                    width: 250px;
+                    font-size: 16px;
+                }
+                button {
+                    padding: 10px 15px;
+                    font-size: 16px;
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #45a049;
+                }
+            </style>
+        </head>
+        <body>
+
+        <nav>
+            <ul>
+                <li><a href="#section1">Fiction</a></li>
+                <li><a href="#section2">Non-Fiction</a></li>
+                <li><a href="#section3">Science</a></li>
+                <li><a href="#section4">Sports</a></li>
+                <li><a href="#section5">Thriller</a></li>
+                <li><a href="#section6">History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="navbar">
+        <div id="section1">
+            <h2>Fiction</h2>
+            <p>Explore the best fiction books for avid readers. Dive into incredible worlds and thrilling adventures.</p>
+        </div>
+        <div id="section2">
+            <h2>Non-Fiction</h2>
+            <p>Discover a wide range of non-fiction books that are informative, educational, and thought-provoking.</p>
+        </div>
+        <div id="section3">
+            <h2>Science</h2>
+            <p>Explore books on the latest scientific discoveries and concepts, from physics to biology.</p>
+        </div>
+        <div id="section4">
+            <h2>Sports</h2>
+            <p>learn about all the famous sports and their great players.</p>
+        </div>
+        <div id="section5">
+            <h2>Thriller</h2>
+            <p>Get your adrenaline pumping with exciting thriller novels full of twists and mysteries.</p>
+        </div>
+        <div id="section6">
+            <h2>History</h2>
+            <p>Step back in time and discover the fascinating stories of the past through history books.</p>
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookflix - Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Order Book</h1>
+    </header>
+
+    <main>
+        <section>
+            
+
+        <!-- Form to collect the user's details -->
+        <form action="https://formspree.io/f/movqoagy" method="POST">
+            <h2>Enter Your Details</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="Book Name">Book Name:</label>
+            <input type="text" id="Book Name" name="Book name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="delivery-method">Choose Delivery Method:</label>
+            <select id="delivery-method" name="delivery-method" required>
+                <option value="home-delivery">Home Delivery</option>
+                <option value="collection">Collection</option>
+            </select>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookflix - Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Thank You for Ordering!</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>If you selected home delivery, please expect your book at your provided address. Otherwise, please visit the collection center to pick up your book.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bookflix. All rights reserved.</p>
+    </footer>
+</body>
+</html>
